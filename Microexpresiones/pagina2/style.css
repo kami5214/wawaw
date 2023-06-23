@@ -1,0 +1,480 @@
+.container {
+  display: flex;
+}
+
+.imagen1 {
+  flex: 1;
+}
+
+.column-left {
+  flex: 1;
+  width: 500%; /* Ajusta el valor según tus necesidades */
+  height: 100%; /* Ajusta el valor según tus necesidades */
+  box-sizing: border-box;
+}
+.vere {
+
+
+  height: 1;
+  font-size: 30px;    /*define el tamaño de la letra */
+  font-family: fantasy;  /*define el grosor de la letra*/
+}
+  h1 {
+    text-shadow: 2px 2px 4px rgb(255, 67, 239); /* Agrega sombra al texto */
+    color: #ff0000; /* Cambia el color de la letra a rojo */
+  }
+
+.imas{
+  display: block;
+  margin: 0 auto;
+}
+
+.caje {
+  display: flex;
+}
+
+.column-right {
+  flex: 1; /* Ocupa el espacio disponible restante */
+}
+
+.column-right {
+  flex: 200px; /* Anchura fija de 200px, ajusta el valor según tus necesidades */
+}
+.column-right {
+  margin-right: 70px; /* Espacio entre la imagen y el siguiente elemento */
+}
+
+.column-right {
+  margin-top: 20px; /* Espacio superior para separar del elemento anterior */
+}
+.imagen-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .som{
+    font-size: 40px;    /*define el tamaño de la letra */
+    font-family: fantasy;  /*define el grosor de la letra*/
+  }
+/*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}*/
+    /* codigo de heder y aqui esta la propiedad para colocar la imagen estatica*/
+    header {
+        width: 100%;
+        height: 600px;
+        background: linear-gradient(to right, #0088ff56, #fff1fd50, #f500454d), url(Img/ñpo.jpeg);/*propiedad aar colocar la imagen estatica */
+        background-size: cover;
+        background-position: center top;
+        background-attachment: fixed;/*si se quita la imagen que va por debajo dejaria la animacion*/
+        position: relative;
+      }
+
+.hola {    /*propirdad paar el cuadro*/
+    float:right;
+    width: 350px;
+    height: 200px;
+    /*background-color: #bf98d31a;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(67, 64, 64, 0.5);*/
+  }
+  .hola {
+    text-align: center;
+  }
+  .hola{
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(255, 0, 255);  /*sombra de la pregunta ¿que cres que son las expreciones*/
+  }
+ 
+.imagen1{
+  margin: auto;
+}
+  
+  .column-left {
+    flex-basis: 100%; /* Ajusta el ancho según tus necesidades */
+    text-align:center;
+  
+    border: 3px solid black;
+    height: 200%px;
+    width:300px
+  }
+  .imagen1 {
+    margin-right: 70px; /* Espacio entre la imagen y el siguiente elemento */
+  }
+  
+  .column-left {
+    margin-top: 20px; /* Espacio superior para separar del elemento anterior */
+  }
+  .column-left{
+    width: 500px; /* Ancho deseado del cuadro en píxeles */
+  }
+  .column-left{
+    width: 600px;
+  }
+  .column-left{
+    position: relative;
+    top: -20px;
+  }
+ 
+
+  .column-right {
+    flex-basis: 100%; /* Ajusta el ancho según tus necesidades */
+    text-align:left;
+    margin: 10%;
+    border: 3px solid black;
+  }
+  .reste{
+    text-shadow: 2px 2px 4px rgb(250, 147, 255);
+  }
+  .sombre{
+    text-shadow: 2px 2px 4px rgb(250, 147, 255);
+    color:#ffffff;
+    
+  height: 1;
+  font-size: 30px;    /*define el tamaño de la letra */
+  font-family: fantasy;  /*define el grosor de la letra*/
+  }
+  .sombra {
+    font-size: 40px;    /*define el tamaño de la letra */
+    font-family: fantasy;  /*define el grosor de la letra*/
+  }
+  
+  
+  .som{
+    text-shadow: 2px 2px 4px rgb(250, 147, 255);
+  }
+  /*.contai{
+    position: relative;  Necesario para utilizar las propiedades top, left, etc.
+    top: -20px; /* Mueve el cuadro 20 píxeles hacia arriba 
+  }*/
+  .container {
+    text-align: left; /* Alinea el contenido al centro horizontal */
+  }
+  
+  .img {
+    display: inline-block; /* Hace que la imagen se comporte como un elemento en línea */
+    margin-left: 20px; /* Ajusta la cantidad de desplazamiento hacia la derecha */
+    margin-right: 20px; /* Ajusta la cantidad de desplazamiento hacia la izquierda */
+    width: 450px;
+    height:400px;
+  }
+  
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.imagenes{
+  width:50px ;
+  height: 50%px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .texto-header h1{
+        font-size: 70px;
+        color: rgba(101, 156, 156, 0.185);
+    }
+
+.caja{
+
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px rgba(19, 61, 138, 0.253);
+    float: left;
+    width: 350px;
+    font-size: medium;
+}
+
+div.caja img {
+    width: 100%;
+    height: auto;}
+
+    div.caja:hover{
+        border:1px rgb(7, 6, 75)
+    }
+
+   .submitt{
+ border-color: antiquewhite;
+    color: rgb(93, 40, 136);
+   }
+
+   h1{
+  text-align: center;
+  text-shadow: 1px 2px 2px rgb(104, 103, 103) 0 0 25px  rgb(93, 40, 136) 0 0 5px blue;
+  color: black;
+   }
+
+   .imagen{
+   border-radius: 3px;
+   box-shadow: 2px 2px blue;
+   width: 33%;
+   height: 33%;
+   box-shadow: 0 2px 2px rgb(130, 133, 130);
+   
+  
+}
+
+.imagen2{
+    border-radius: 8px;
+   width: 33%;
+   height: 33%;
+   box-shadow: 0 2px 2px rgb(130, 133, 130);
+
+}
+
+
+
+#img{
+    float:right;
+}
+
+#img2{
+    float:left
+    
+    
+}
+#imgtipo2{
+    float: left;
+}
+
+.imgtipo2{
+    border-radius: 8px;
+   width: 33%;
+   height: 33%;
+   box-shadow: 0 2px 2px rgb(130, 133, 130);
+}
+p b i{
+    color: aqua;
+} 
+   
+.menuCSS3 ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menuCSS3 a {
+    display:inline-flex;
+    padding: 2em;
+    text-decoration: #e9dfdf;
+    color: #191C26;
+}
+.menuCSS3 a:hover {
+    background-color: #8c4aca;
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;
+}
+
+  
+  .tituloheader {     /*titulo principal (MICROEXPRESIONES)*/
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    background-color: #050505;
+    color: #999696;
+  }
+  
+
+    body{ background-color: rgba(213, 189, 240, 0.541);}
+
+  
+ /* CARRUSEL */
+ .carousel {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+
+
+/* CARRUSEL */
+      /*este es el pie de la pagina */
+     /* Estilos generales */
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+}
+.container{
+  margin: 0 auto;
+  padding: 50px;
+}
+
+/*footpage*/
+footer {
+  background-color: #dfd8dd;
+  background-position: center;
+  background-size: cover;
+  display: block;
+  padding: 30px;
+  font-family: fantasy;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.footer-column {
+  flex-basis: 30%;
+  padding: 10px;
+  flex-direction: column;
+}
+.footer-column h3 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #8c4aca;
+  
+}
+
+.footer-column p {
+  margin: 0;
+  font-size: 40px;
+ 
+}
+
+.footer-column ul {
+  margin: 10px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column li {
+  margin-bottom: 5px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #080808;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/*footpage*/
+
+/*MENU DE NAVEGACION*/
+.btn-inicio.hidden {
+  display: none;
+}
+
+nav {
+  font-size: 30px;
+  font-family: fantasy;
+  background-color: #c483dd5d(93, 179, 182, 0.5); /* Color de fondo con opacidad de 0.5 */
+  background-color: #ab4cd15b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  position: fixed; /* Menú fijo en la parte superior de la pantalla */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999; /* Asegurar que el menú esté por encima de otros elementos */
+}
+
+h1 {
+  margin: 0;
+}
+
+a {
+  color: #fff; /* Color blanco para el texto del menú */
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  margin-left: 10px;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #deb9ec;
+}
+
+.dropdown-content a {
+  color: #c483dd;
+  display: block;
+  padding: 10px;
+}
+
+li.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Efecto de hover */
+nav a:hover {
+  color: #cc59fa; /* Cambiar el color del texto al hacer hover */
+  font-weight: bold; /* Cambiar el peso de la fuente al hacer hover */
+}
+
+nav li.dropdown:hover .dropdown-content a {
+  color: #cc59fa; /* Cambiar el color del enlace dentro del dropdown al hacer hover */
+}
+
+main {
+  margin-top: 120px; /* Margen superior igual a la altura del menú */
+}
+
+nav.scrolled {
+  background-color: #c483dd; /* Color sólido para el menú cuando se desplaza */
+}
+.footer-column {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*MENU DE NAVEGACION*/

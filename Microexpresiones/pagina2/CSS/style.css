@@ -1,0 +1,133 @@
+
+
+.caja{
+
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px rgb(19, 61, 138);
+    float: left;
+    width: 350px;
+    font-size: medium;
+}
+
+div.caja img {
+    width: 100%;
+    height: auto;}
+
+    div.caja:hover{
+        border:1px rgb(7, 6, 75)
+     
+    }
+
+   div.pie{
+   text-align: justify;
+   text-shadow: 2px 2px 5px rgb(72, 76, 76);
+   padding: 10px;
+   }
+
+   .submitt{
+ border-color: antiquewhite;
+    color: rgb(93, 40, 136);
+   }
+
+   h1{
+  text-align: center;
+  text-shadow: 1px 2px 2px rgb(104, 103, 103) 0 0 25px  rgb(93, 40, 136) 0 0 5px blue;
+  color: black;
+   }
+
+   .imagen{
+   border-radius: 3px;
+   box-shadow: 2px 2px blue;
+   width: 33%;
+   height: 33%;
+   box-shadow: 0 2px 2px rgb(130, 133, 130);
+   
+  
+}
+
+.imagen2{
+    border-radius: 8px;
+   width: 33%;
+   height: 33%;
+   box-shadow: 0 2px 2px rgb(130, 133, 130);
+
+}
+
+
+
+#img{
+    float:right;
+}
+
+#img2{
+    float:left
+    
+    
+}
+#imgtipo2{
+    float: left;
+}
+
+.imgtipo2{
+    border-radius: 8px;
+   width: 33%;
+   height: 33%;
+   box-shadow: 0 2px 2px rgb(130, 133, 130);
+}
+p b i{
+    color: aqua;
+} 
+   
+.menuCSS3 ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menuCSS3 a {
+    display:inline-flex;
+    padding: 2em;
+    text-decoration: #e9dfdf;
+    color: #191C26;
+}
+.menuCSS3 a:hover {
+    background-color: #8c4aca;
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIl3LXBj4SqQ3SSCLYCJHL8k41QyV1zUbrNfYyC1NkYNNFFISPpYmHtrRRosOnhercpLw&usqp=CAU);
+    color: #fff;
+  }
+  
+  .tituloheader {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    background-color: #d61212;
+    color: #fff;
+  }
+  
+  .video-responsive {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56%;
+    padding-top: 30px;
+    position: relative;
+    }
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+    height: 33%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 33%;}
+
+    

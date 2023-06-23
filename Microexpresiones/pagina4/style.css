@@ -1,0 +1,361 @@
+
+/*MENU DE NAVEGACION*/
+.btn-inicio.hidden {
+  display: none;
+}
+.res{
+  text-shadow: 2px 2px 4px rgb(250, 147, 255);
+}
+
+nav {
+  font-size: 30px;
+  font-family: fantasy;
+  background-color: #c483dd5d(93, 179, 182, 0.5); /* Color de fondo con opacidad de 0.5 */
+  background-color: #ab4cd15b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  position: fixed; /* Menú fijo en la parte superior de la pantalla */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999; /* Asegurar que el menú esté por encima de otros elementos */
+}
+
+h1 {
+  margin: 0;
+}
+
+a {
+  color: #fff; /* Color blanco para el texto del menú */
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  margin-left: 10px;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #deb9ec;
+}
+
+.dropdown-content a {
+  color: #c483dd;
+  display: block;
+  padding: 10px;
+}
+
+li.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Efecto de hover */
+nav a:hover {
+  color: #cc59fa; /* Cambiar el color del texto al hacer hover */
+  font-weight: bold; /* Cambiar el peso de la fuente al hacer hover */
+}
+
+nav li.dropdown:hover .dropdown-content a {
+  color: #cc59fa; /* Cambiar el color del enlace dentro del dropdown al hacer hover */
+}
+
+main {
+  margin-top: 120px; /* Margen superior igual a la altura del menú */
+}
+
+nav.scrolled {
+  background-color: #c483dd; /* Color sólido para el menú cuando se desplaza */
+}
+/*MENU DE NAVEGACION*/
+  
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+header{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(to right, #355b7d8e, #6c5b7ba9, #c06c84a6), url(Img/portada2.jpeg);
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.info{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.texto-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .texto-header h1{
+        font-size: 70px;
+        color: azure;
+    }
+
+.caja{
+
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px rgb(19, 61, 138);
+    float: left;
+    width: 350px;
+    font-size: medium;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    
+}
+#formulario{
+  margin: 10px 20px;
+    box-shadow: 0 4px 8px rgb(19, 61, 138);
+    float: left;
+    width: 350px;
+    font-size: medium;
+
+}
+#formulario1{
+  margin: 10px 20px;
+    box-shadow: 0 4px 8px rgb(19, 61, 138);
+    float: right;
+    width: 350px;
+    font-size: medium;
+}
+
+div.caja img {
+    width: 100%;
+    height: auto;
+    position:relative;
+  }
+
+    div.caja:hover{
+        border:1px rgb(7, 6, 75)
+     
+    }
+
+   div.pie{
+   text-align: justify;
+   text-shadow: 2px 2px 5px rgb(72, 76, 76);
+   padding: 10px;
+   }
+
+   .submitt{
+ border-color: antiquewhite;
+    color: rgb(93, 40, 136);
+   }
+
+   h1{
+  text-align: center;
+  text-shadow: 1px 2px 2px rgb(104, 103, 103) 0 0 25px  rgb(93, 40, 136) 0 0 5px blue;
+  color: black;
+   }
+
+   .imagen{
+   border-radius: 3px;
+   box-shadow: 2px 2px blue;
+   width: 33%;
+   height: 33%;
+   box-shadow: 0 2px 2px rgb(130, 133, 130);
+   
+  
+}
+
+.imagen2{
+    border-radius: 8px;
+   width: 33%;
+   height: 33%;
+   box-shadow: 0 2px 2px rgb(130, 133, 130);
+
+}
+
+
+
+#img{
+    float:right;
+}
+
+#img2{
+    float:left
+    
+    
+}
+#imgtipo2{
+    float: left;
+}
+
+.imgtipo2{
+    border-radius: 8px;
+   width: 33%;
+   height: 33%;
+   box-shadow: 0 2px 2px rgb(130, 133, 130);
+}
+p b i{
+    color: aqua;
+} 
+   
+.menuCSS3 ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menuCSS3 a {
+    display:inline-flex;
+    padding: 2em;
+    text-decoration: #e9dfdf;
+    color: #191C26;
+}
+.menuCSS3 a:hover {
+    background-color: #8c4aca;
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;
+}
+
+  
+  .tituloheader {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+
+    body{ background-color: rgba(213, 189, 240, 0.541);}
+
+    video, source{
+        width: 400px;
+        height: 200px;
+        object-fit: cover;
+        z-index: -100;
+      }
+      @keyframes reproducirVideo {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      
+      #miVideo {
+        animation-name: reproducirVideo;
+        animation-duration: 1s;
+        animation-delay: 1s; /* Retraso de 1 segundo */
+      }
+      
+/*footpage*/
+footer {
+  background-color: #dfd8dd;
+  background-position: center;
+  background-size: cover;
+  display: block;
+  padding: 30px;
+  font-family: fantasy;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.footer-column {
+  flex-basis: 30%;
+  padding: 10px;
+  flex-direction: column;
+}
+.footer-column h3 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #8c4aca;
+  
+}
+
+.footer-column p {
+  margin: 0;
+  font-size: 40px;
+ 
+}
+
+.footer-column ul {
+  margin: 10px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column li {
+  margin-bottom: 5px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #080808;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/*footpage*/
+      /* CARRUSEL */
+      .carousel {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .slide {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+      }
+      
+      .slide.active {
+        opacity: 1;
+      }
+
+
+
+/* CARRUSEL */
+
+ 
